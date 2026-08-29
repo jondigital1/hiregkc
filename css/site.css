@@ -276,6 +276,28 @@ textarea.field { min-height: 88px; resize: vertical; }
 .list-row .unit { color: var(--footnote); white-space: nowrap; }
 .town { font-size: 12.5px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: var(--chipbg); color: #33413A; }
 
+/* ---------- Local expertise, Gary notes, FAQs ---------- */
+.local-block p { font-size: 15.5px; line-height: 1.7; color: #33413A; max-width: 70ch; margin: 12px 0 0; }
+.gary-note {
+  background: var(--chipbg); border-radius: 12px; padding: 18px 22px;
+  margin-top: 24px; max-width: 860px;
+}
+.gary-note .g-quote { font-size: 15.5px; line-height: 1.6; font-style: italic; color: var(--ink); }
+.gary-note .g-who { font-size: 12.5px; font-weight: 700; color: var(--muted); margin-top: 8px; }
+.faq { max-width: 860px; }
+.faq-item { border: 1px solid var(--line); border-radius: 10px; background: #fff; margin-top: 10px; }
+.faq-item summary {
+  cursor: pointer; font-family: var(--display); font-weight: 700; font-size: 16px;
+  padding: 16px 20px; list-style: none; display: flex; justify-content: space-between;
+  align-items: baseline; gap: 12px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; color: var(--accent, var(--spruce)); font-weight: 800; font-size: 18px; flex: none; }
+.faq-item[open] summary::after { content: "\2212"; }
+.faq-item .a { padding: 0 20px 18px; font-size: 15px; line-height: 1.65; color: #33413A; max-width: 70ch; }
+.faq-item .a p { margin: 0 0 10px; }
+.faq-item .a p:last-child { margin-bottom: 0; }
+
 /* ---------- Mobile sticky bar ---------- */
 .mobile-bar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;

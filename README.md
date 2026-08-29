@@ -23,6 +23,10 @@ Plain static HTML/CSS/JS, no build step. Recreated faithfully from the design ha
 - `FORM_ENDPOINT`: **empty until connected.** Set it to a form backend (e.g. a Formspree form ID) that emails gary@hiregkc.com and brandi@hiregkc.com. Until then, submitting shows a call/email fallback instead of pretending to send.
 - `WINTER_MODE`: set `true` from November to March to show the sitewide 24-hour snow banner.
 
+## SEO layer (added after the handoff)
+
+Each service page carries a local-expertise block, a short Gary quote, and an FAQ section (with FAQPage and Service structured data), plus `sitemap.xml` and `robots.txt`. The org schema lists `alternateName: "HireGKC"` so the domain brand matches searches. **The FAQ answers and Gary quotes are drafted in the house voice and need Gary's sign-off before launch**, especially anything touching repairs, timelines or response promises.
+
 ## Still waiting on Gary (from the handoff)
 
 1. PA HIC registration number (display on `/about`)
