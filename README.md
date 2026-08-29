@@ -18,6 +18,13 @@ Plain static HTML/CSS/JS, no build step. Recreated faithfully from the design ha
 
 `vercel.json` sets clean URLs (so `/landscaping` serves `landscaping.html`) and 301s the old `/testimonials` to `/#reviews`.
 
+## Pitch mode (current state)
+
+Gary has not signed off on running this site yet, so the deployment is in pitch mode:
+
+- **Search engines are blocked** via an `X-Robots-Tag: noindex` header in `vercel.json`. When Gary approves and the domain cuts over, delete that header block; the SEO layer (FAQs, schema, sitemap) is already in place and takes effect then.
+- **Forms are intentionally not wired** (`FORM_ENDPOINT` empty); they validate and show a call/email fallback, which is correct demo behavior.
+
 ## Configuration (js/site.js)
 
 - `FORM_ENDPOINT`: **empty until connected.** Set it to a form backend (e.g. a Formspree form ID) that emails gary@hiregkc.com and brandi@hiregkc.com. Until then, submitting shows a call/email fallback instead of pretending to send.
