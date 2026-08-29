@@ -100,7 +100,7 @@ function deliverForm(form, fields, onSuccess) {
       onSuccess();
     })
     .catch(function () {
-      if (btn) { btn.disabled = false; btn.textContent = btn.getAttribute("data-label") || "SEND IT TO GARY"; }
+      if (btn) { btn.disabled = false; btn.textContent = btn.getAttribute("data-label") || "SEND IT TO GKC"; }
       showMsg(form, "err", "That didn't go through. Call or text 267-436-1181, or email gary@hiregkc.com.");
     });
 }
