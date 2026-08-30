@@ -120,7 +120,7 @@ function initEstimateForms() {
       var timeline = fieldOrChips(form, "timeline");
       var reach = fieldOrChips(form, "reach");
 
-      if (!name.trim()) { showMsg(form, "err", "Add your name so Gary knows who to call back."); return; }
+      if (!name.trim()) { showMsg(form, "err", "Add your name so we know who to call back."); return; }
       if (!phone.trim() && !email.trim()) { showMsg(form, "err", "Add a phone number or an email so we can reach you."); return; }
       if (services.length === 0) { showMsg(form, "err", "Pick at least one service so the right person calls you back."); return; }
 
@@ -134,7 +134,7 @@ function initEstimateForms() {
         form.innerHTML =
           '<div style="text-align:center;padding:34px 10px;display:flex;flex-direction:column;gap:12px">' +
           '<div style="font-family:var(--display);font-size:26px;font-weight:800;text-transform:uppercase;color:var(--spruce)">Sent. You’re on the list.</div>' +
-          '<div style="font-size:15.5px;line-height:1.6;color:var(--muted)">Gary or Brandi will get back to you within one business day.<br>Sooner is fine too: <a href="tel:+12674361181" style="font-weight:700">267-436-1181</a>, call or text.</div>' +
+          '<div style="font-size:15.5px;line-height:1.6;color:var(--muted)">We\'ll get back to you within one business day.<br>Sooner is fine too: <a href="tel:+12674361181" style="font-weight:700">267-436-1181</a>, call or text.</div>' +
           "</div>";
       });
     });

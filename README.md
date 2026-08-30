@@ -32,7 +32,12 @@ Gary has not signed off on running this site yet, so the deployment is in pitch 
 
 ## SEO layer (added after the handoff)
 
-Each service page carries a local-expertise block, a short Gary quote, and an FAQ section (with FAQPage and Service structured data), plus `sitemap.xml` and `robots.txt`. The org schema lists `alternateName: "HireGKC"` so the domain brand matches searches. **The FAQ answers and Gary quotes are drafted in the house voice and need Gary's sign-off before launch**, especially anything touching repairs, timelines or response promises.
+Each service page carries a local-expertise block, a short house-rule note, and an FAQ section (with FAQPage and Service structured data), plus `sitemap.xml` and `robots.txt`. The org schema lists `alternateName: "HireGKC"` so the domain brand matches searches. **The FAQ answers and Gary quotes are drafted in the house voice and need Gary's sign-off before launch**, especially anything touching repairs, timelines or response promises.
+
+## Client direction (2026-08-29)
+
+- **Gary and family are not featured.** The owner does not want to be front and center: no photos of him or the family, no attributed quotes, no "Meet Gary" framing. He appears only in the contact email addresses. The family photo (`gary-family.webp`) was deleted from the tree (it still exists in git history; scrub history if that matters).
+- **Palette retokenized to the actual GKC logo**: royal blue `#2337A8`, deep navy `#10194A`, black ink, cool white ground. The old spruce green and equipment orange are gone. Service wayfinding colors are now blue-family shades.
 
 ## Still waiting on Gary (from the handoff)
 
@@ -46,6 +51,6 @@ Each service page carries a local-expertise block, a short Gary quote, and an FA
 
 ## Images
 
-All photos in `/images` are real GKC jobs, re-hosted from the current site's Squarespace CDN, plus three photos supplied in the handoff (`gary-family.webp`, `crew-on-the-job.webp`, `fleet-plow-trucks.webp`). No stock photography, ever.
+All photos in `/images` are real GKC jobs, re-hosted from the current site's Squarespace CDN, plus two photos supplied in the handoff (`crew-on-the-job.webp`, `fleet-plow-trucks.webp`). No stock photography, ever.
 
-House copy rules: brand is "GKC Enterprises" (never "Enterprise"), no em dashes, price is discussed only through Gary's quote.
+House copy rules: brand is "GKC Enterprises" (never "Enterprise"), no em dashes, price is discussed only through the GKC promise quote.
